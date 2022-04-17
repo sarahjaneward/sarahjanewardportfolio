@@ -1,0 +1,67 @@
+/* these are the approved styles for the site */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color:grey
+
+}
+h1 {
+    color:darkslategrey
+}
+li {
+    font-size: 14px;
+    font-style: italic;
+    font-weight: normal;
+}
+a {
+  color: blueviolet;
+  text-decoration: none  
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color:blueviolet;
+}
+
+
+.resumelistheading {
+    font-weight: bold;
+    font-style: normal;
+}
+.underline {text-decoration: underline;}
+.bold{font-weight: bold;}
+.itallic {font-style:italic;}
+
+.justify{
+    text-align: justify;
+}
+
+.homebg {
+    background-image:url('Image/backgroundimage.jpg') ;
+    background-size:cover;
+}
+
+.bulletsize {
+    font-size: 12px;
+}
+
+/* these are demonstration styles... they look kinda gross */
+
+.box1 {
+    border-width: 5px;
+    border-style:ridge;
+    border-color: lightgrey;
+}
+
+.box2 {
+    padding: 10px;
+}
+
+.box3 {
+    margin: 10px
+}
+
